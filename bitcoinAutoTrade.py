@@ -4,8 +4,8 @@ import datetime
 import pandas as pd
 from pytz import timezone
 
-access = "nF2JmnhmkfXRtRUcrAn01Vbor5wA92bwz5OdeM0Y"
-secret = "zXSwglcGbxSu70ZH1tuFJxj9lxf0NaqxN856cgDG"
+access = "75q4nPoCyb0xKdtnhQSIU5hHfekrfroYTxzI99Uv"
+secret = "cf1nqKprRFkke4uxjNLCgZoAFck4aWxAiQRJAc8Q"
 
 def get_target_price(ticker, k):
     """변동성 돌파 전략으로 매수 목표가 조회"""
