@@ -1,6 +1,8 @@
 import time
 import pyupbit
 import datetime
+import pandas as pd
+from pytz import timezone
 
 access = "nF2JmnhmkfXRtRUcrAn01Vbor5wA92bwz5OdeM0Y"
 secret = "zXSwglcGbxSu70ZH1tuFJxj9lxf0NaqxN856cgDG"
@@ -37,7 +39,7 @@ def get_current_price(ticker):
 # 로그인
 upbit = pyupbit.Upbit(access, secret)
 print("autotrade start")
-
+# 원하는 코인 티커 입력
 tc_name = "KRW-KNC"
 # 자동매매 시작
 while True:
